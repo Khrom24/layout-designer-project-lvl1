@@ -209,7 +209,7 @@ h1 {
 }
 
 .video {
-  color: rgba(0 0 0 15%);
+  color: hsla(0 0 0 / 0.15);
   filter: drop-shadow(0 16px 32px);
 }
 
@@ -336,7 +336,7 @@ h1 {
 .img-section {
   background: var(--white);
   vertical-align: middle;
-  color: rgba(0 0 0 / 15%);
+  color: rgba(0 0 0 / 0.15);
   filter: drop-shadow(0 16px 32px);
 }
 
