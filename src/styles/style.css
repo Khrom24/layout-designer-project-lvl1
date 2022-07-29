@@ -93,8 +93,6 @@ p {
 
 .header-title {
   position: relative;
-
-  padding-top: 100px;
 }
 
 h1 {
@@ -114,7 +112,7 @@ h1 {
 
 .header-img {
   position: absolute;
-  top: 55px;
+  top: -75px;
   right: -270px;
 
   height: 525px;
