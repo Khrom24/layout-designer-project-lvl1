@@ -265,7 +265,6 @@ h1 {
 .menu-card {
   background: var(--light);
   padding: 24px;
-  
 }
 
 .menu-num {
@@ -290,7 +289,7 @@ h1 {
 .menu-text {
   font-family: OpenSans, sans-serif;;
   color: var(--dark);
-  margin-top: 12px;
+  margin: 12px 0 0 0;
   padding: 0;
 }
 
