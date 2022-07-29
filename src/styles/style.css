@@ -1,10 +1,10 @@
 @font-face {
-  font-family: OpenSans;
-  src: url("asserts/fonts/OpenSans-Regular.ttf");
+  font-family: "Open Sans";
+  src: url("asserts/fonts/Open Sans-Regular.ttf");
 }
 
 @font-face {
-  font-family: Neucha;
+  font-family: "Neucha";
   src: url("asserts/fonts/Neucha-Regular.ttf");
 }
 
@@ -20,7 +20,7 @@
   --blue: #1085c5;
   --font-size: 16px;
   --line-height: 1.6em;
-  --text-color: #2A2626;
+  --text-color: #2a2626;
   --lineheight-headline: 1.2em;
   --h1: 72px;
   --h2: 60px;
@@ -28,7 +28,7 @@
 }
 
 body {
-  margin: .0;
+  margin: 0;
 }
 
 p {
@@ -36,7 +36,7 @@ p {
   font-size: var(--font-size);
 
   font-weight: 400;
-  font-family: 'OpenSans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
   line-height: var(--line-height);
 }
 
@@ -80,7 +80,6 @@ p {
   width: 100%;
   height: 100%;
 
-
   background-image: url("images/background.png");
 
   background-repeat: no-repeat;
@@ -102,19 +101,20 @@ h1 {
   font-weight: 400;
   font-size: var(--h2);
 
-  font-family: 'Neucha', sans-serif;
+  font-family: "Neucha", sans-serif;
   line-height: var(--lineheight-headline);
 }
 
-.header-h1 {  
+.header-h1 {
   margin: 0;
 
   color: var(--dark);
   font-weight: 400;
   font-size: var(--h1);
 
-  font-family: 'Neucha', serif;
-  line-height: var(--lineheight-headline);}
+  font-family: "Neucha", serif;
+  line-height: var(--lineheight-headline);
+}
 
 .orange {
   color: var(--main);
@@ -156,9 +156,8 @@ h1 {
 
   color: var(--white);
 
-  font-family: 'OpenSans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
 
-  font-weight: 700px;
   font-size: var(--font-size);
   line-height: var(--line-height);
   text-transform: uppercase;
@@ -172,7 +171,6 @@ h1 {
 .header-button:hover {
   background: #ea7600;
 }
-
 
 .video-section {
   position: relative;
@@ -196,7 +194,7 @@ h1 {
   font-weight: 400;
   font-size: 60px;
 
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   font-style: normal;
 
   line-height: 72px;
@@ -211,11 +209,11 @@ h1 {
   font-weight: 400;
   font-size: 16px;
 
-  font-family: 'OpenSans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 #navigation {
@@ -236,7 +234,6 @@ h1 {
   column-gap: 30px;
 }
 
-
 .menu a {
   display: contents;
 
@@ -256,7 +253,7 @@ h1 {
 
 .menu-info {
   margin: 0;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   font-weight: 400;
   font-size: 52px;
   line-height: 62px;
@@ -270,7 +267,7 @@ h1 {
 .menu-num {
   padding: 0;
   margin: 0;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   font-size: 64px;
   font-weight: 400;
   line-height: 70px;
@@ -281,13 +278,13 @@ h1 {
   margin-top: 40px;
   margin-bottom: 0;
   font-size: 34px;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   color: var(--main);
   line-height: 41px;
 }
 
 .menu-text {
-  font-family: OpenSans, sans-serif;;
+  font-family: "Open Sans", sans-serif;
   color: var(--dark);
   margin: 12px 0 0 0;
   padding: 0;
@@ -325,7 +322,6 @@ h1 {
   width: 100%;
   height: 100%;
 
-
   background-image: url("images/background.png");
 
   background-repeat: no-repeat;
@@ -354,7 +350,7 @@ h1 {
 
   font-weight: 400;
   font-size: 24px;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   line-height: 29px;
 }
 
@@ -365,13 +361,13 @@ h1 {
 
   font-weight: 400;
   font-size: 24px;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   line-height: 29px;
 }
 
 .explanation-black {
   margin-top: 30px;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
@@ -380,7 +376,7 @@ h1 {
 
 .explanation-white {
   margin-top: 30px;
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
@@ -407,7 +403,7 @@ h1 {
   margin: 0;
   color: var(--white);
   
-  font-family: 'OpenSans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -418,7 +414,7 @@ h1 {
   margin: 0;
   color: var(--brown);
   
-  font-family: 'OpenSans', sans-serif;;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -434,7 +430,6 @@ h1 {
 .column-text {
   margin: 0;
 }
-
 
 #premature-optimization {
   position: relative;
@@ -487,8 +482,6 @@ h1 {
   content: "";
 }
 
-
-
 #hyperbolic-depreciation {
   position: relative;
   display: flex;
@@ -514,7 +507,6 @@ h1 {
 
   content: "";
 }
-
 
 #errors-in-planning {
   position: relative;
@@ -570,7 +562,7 @@ h1 {
   font-weight: 400;
   font-size: var(--h3);
 
-  font-family: 'Neucha', sans-serif;;
+  font-family: "Neucha", sans-serif;
 
   line-height: 41px;
 }
@@ -583,7 +575,7 @@ h1 {
   font-weight: 400;
   font-size: 18px;
 
-  font-family: 'OpenSans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   line-height: 160%;
 }
@@ -624,7 +616,7 @@ h1 {
   font-weight: 400;
   font-size: 12px;
 
-  font-family: 'OpenSans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   line-height: 160%;
 }
@@ -649,7 +641,7 @@ h1 {
   font-weight: 400;
   font-size: 13.1px;
 
-  font-family: OpenSans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
 
   line-height: 160%;
@@ -670,7 +662,7 @@ h1 {
   font-weight: 400;
   font-size: 14px;
 
-  font-family: 'OpenSans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   
 
   line-height: 160%;
