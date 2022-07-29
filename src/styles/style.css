@@ -209,8 +209,7 @@ h1 {
 }
 
 .video {
-  color: hsla(0 0 0 / 0.15);
-  filter: drop-shadow(0 16px 32px);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
 }
 
 #navigation {
@@ -336,8 +335,7 @@ h1 {
 .img-section {
   background: var(--white);
   vertical-align: middle;
-  color: rgba(0 0 0 / 0.15);
-  filter: drop-shadow(0 16px 32px);
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
 }
 
 .cognitive-distortions-black {
