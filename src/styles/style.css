@@ -247,14 +247,12 @@ h1 {
   box-sizing: border-box;
   margin-bottom:20px;
   width: 350px;
-  height: 353px;
 }
 
 .menu-block-info {
   box-sizing: border-box;
   margin-bottom: 20px;
   width: 350px;
-  height: 353px;
 }
 
 .menu-info {
@@ -272,6 +270,7 @@ h1 {
 }
 
 .menu-num {
+  padding: 0;
   margin: 0;
   font-family: 'Neucha', sans-serif;;
   font-size: 64px;
@@ -290,8 +289,6 @@ h1 {
 }
 
 .menu-text {
-  display: flex;
-  align-items: flex-end;
   font-family: OpenSans, sans-serif;;
   color: var(--dark);
   margin-top: 12px;
